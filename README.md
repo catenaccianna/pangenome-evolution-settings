@@ -1,13 +1,11 @@
 # Pangenome Evolution Settings
 Analysis tools used to set conditions of evolution in pangenomes. Evolution is conducted with a crossover operator modeled after DeBruijn graphs:
 
-[![DeBruijn graph code](https://github.com/catenaccianna/pangenomes-for-evolutionary-computation.git)](https://github.com/catenaccianna/pangenomes-for-evolutionary-computation)
+Click to look at the github repo code for DeBruijn graphs that describe [pangenomes](https://github.com/catenaccianna/pangenomes-for-evolutionary-computation.git)
 
 Evolutionary Computation is conducted through Version 2 of the Modular Agent-Based Evolver:
 
-[![MABE2](https://github.com/mercere99/MABE2.git)](https://github.com/mercere99/MABE2)
-[![MABE2](https://github.com/mercere99/MABE2.git)]:(https://github.com/mercere99/MABE2)
-[MABE2](https://github.com/mercere99/MABE2.git)
+Click to look at the github repo code for [MABE2](https://github.com/mercere99/MABE2.git)
 
 This repository contains sbatch scripts, settings files, and data for running MABE2 under the settings chosen to test the effect of this crossover operator on the
 evolution of a population.
