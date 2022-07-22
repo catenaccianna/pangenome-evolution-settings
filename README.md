@@ -22,3 +22,5 @@ dominant, maximum, and minimum fitness.
 
 Sbatch files were used to run trials in HPCC, using the .mabe settings files. Resulting CSV files were scp-ed from the remote HPCC server to my local computer, and 
 the CombineCsv Script was run on these files to produce one CSV file for every condition tested. These CSV files were imported into RStudio to visualize the data.
+
+The naming scheme of all MABE settings and sbatch files follows the format of specifying that it is part of the "pangenome" project, then listing the probability in that trial of the DeBruijn graph crossover to occur (0.01P means that there is a 1% change of the crossover changing a genome, 1P means that we change new genomes using this crossover 100% of the time), and then listing the technique of crossover used (SC or NSC). SC ("Sequence Count") means that a particular kmer can only be used in an individual's new genome the same number of times that it appears in the entire pangenome, while NSC ("No Sequence Count") means that a kmer sequence can be used an unlimited number of times.
