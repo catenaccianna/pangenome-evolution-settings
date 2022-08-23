@@ -8,7 +8,6 @@ CommandLine cl;
 FileOutput output;
 
 EvalNK eval_nk;
-AnalyzePangenome pangenome;
 SelectTournament select_t;
 
 GrowthPlacement place_next;
