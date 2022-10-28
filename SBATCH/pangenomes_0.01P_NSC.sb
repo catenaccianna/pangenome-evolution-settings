@@ -1,3 +1,4 @@
+#SBATCH -A ecode
 #!/bin/sh
 
 ## This file runs one experimental condition (i.e. a group of jobs
