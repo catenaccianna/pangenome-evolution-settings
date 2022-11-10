@@ -1,5 +1,5 @@
-#SBATCH -A ecode
 #!/bin/sh
+#SBATCH -A ecode
 
 ## This file runs one experimental condition (i.e. a group of jobs
 ## that are the same except for their random seed)
