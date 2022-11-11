@@ -29,9 +29,6 @@ def concat_fitness(path, new_path, condition, filename):
 	fitness_df['Filename'] = [filename] * len(fitness_df.axes[0])
 	fitness_df['Condition'] = [condition] * len(fitness_df.axes[0])
 	fitness_df.to_csv(new_path, index = False, encoding = 'utf-8-sig')
-	#i have the original 1P_SC random seed of 999 fitness.csv being 1000 data pieces long (1001 with title)
-	#and the 1P_SC_fitness.csv that is supposed to have like 30 replicants is all random seed 999 data repeated 30 times
-	#it has 30,000 lines (30,001 with title)
 
 concat_fitness("/mnt/c/Users/Anna Catenacci/Desktop/data_sets/data_control/", r'/mnt/c/Users/Anna Catenacci/Desktop/fitness/control_fitness.csv', "control", "control_fitness.csv")
 concat_fitness("/mnt/c/Users/Anna Catenacci/Desktop/data_sets/data_0.01P_NSC/", r'/mnt/c/Users/Anna Catenacci/Desktop/fitness/0.01P_NSC_fitness.csv', "0.01P_NSC", "0.01P_NSC_fitness.csv")
